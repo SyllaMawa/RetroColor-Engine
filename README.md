@@ -48,7 +48,7 @@ Une fois que le moteur a trouvé le décalage parfait, il fusionne les trois cou
 
 ---
 
-## 🎯 Ce que j'ai appris
+## Ce que j'ai appris
 Ce projet m'a permis de transformer des maths pures (statistiques, matrices) en quelque chose de visuel et d'émouvant. J'ai appris à gérer le "bruit" dans les données et à faire comprendre à un ordinateur la notion de "ressemblance" visuelle.
 
 ---
