@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Images / Data
+data/output/
+*.png
+!assets/*.png
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Large source images (optional, but good for git)
+data/raw/*.tif
