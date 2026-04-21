@@ -13,7 +13,7 @@ import time
 
 
 print("chargement de l'image ..........................................")
-I = img.imread('images/00998u.tif')
+I = img.imread('../data/raw/00998u.tif')
 print(I.shape)
 print(np.mean(I))
 rows, cols= I.shape
@@ -77,8 +77,8 @@ plt.subplot(1, 2, 2)
 plt.imshow(R_comp_recal, cmap = "gray")
 plt.title("composante R recalée")
 
-plt.imsave('ImageGRecalee.png', G_comp_recal)
-plt.imsave('ImageRRecalée.png', R_comp_recal)
+plt.imsave('../data/output/ImageGRecalee.png', G_comp_recal)
+plt.imsave('../data/output/ImageRRecalée.png', R_comp_recal)
 
 #Concatenation des composantes
 imgGl = np.zeros((B_comp.shape[0], B_comp.shape[1], 3), dtype = np.int32)
