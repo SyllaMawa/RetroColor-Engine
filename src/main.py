@@ -7,7 +7,7 @@ from skimage import transform as tf
 import cv2
 
 print("chargement de l'image")
-I = img.imread('images/a.tif')
+I = img.imread('../data/raw/a.tif')
 print(np.mean(I))
 rows, cols= I.shape
 print("rows="+str(rows)+" cols="+str(cols))
@@ -42,9 +42,9 @@ def division(im):
     part2 = im[div_height: 2*div_height, :]
     part3 = im[2*div_height:3*div_height, :]
 
-    plt.imsave('part1.png', part1)
-    plt.imsave('part2.png', part2)
-    plt.imsave('part3.png', part3)
+    plt.imsave('../data/output/part1.png', part1)
+    plt.imsave('../data/output/part2.png', part2)
+    plt.imsave('../data/output/part3.png', part3)
 
     
     fig, axs = plt.subplots(3, 1, figsize=(5, 5))  
@@ -141,7 +141,7 @@ def fusionner_images(par1, par2, par3):
     plt.figure(4)
     plt.imshow(image_fusionnee)
     plt.title("Image Fusionnée")
-    plt.savefig('resultat_final.png')
+    plt.savefig('../data/output/resultat_final.png')
     # plt.show()
     
     #return image_fusionnee
@@ -161,8 +161,8 @@ recalage3=recalage(one, three,1)
 
 #print(recalage2.shape, recalage3.shape)
 
-plt.imsave('Image2Recalee.png', recalage2)
-plt.imsave('Image3Recalée.png', recalage3)
+plt.imsave('../data/output/Image2Recalee.png', recalage2)
+plt.imsave('../data/output/Image3Recalée.png', recalage3)
 
 fusionner_images(one, recalage2, recalage3)
 
