@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import image as img
-from utilsN import *
+from utils import *
 
 from timeit import default_timer as timer
 import time
