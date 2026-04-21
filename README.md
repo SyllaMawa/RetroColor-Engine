@@ -27,6 +27,19 @@ Une fois que le moteur a trouvé le décalage parfait, il fusionne les trois cou
 
 ---
 
+## 📂 Structure du projet
+
+*   **`src/`** : Cœur de l'application.
+    *   `engine.py` : Le moteur principal de recalage.
+    *   `utils.py` : Fonctions utilitaires de traitement d'image.
+    *   `legacy_processor.py` : Ancienne version de l'algorithme (sauvegarde).
+*   **`data/`** : Gestion des données.
+    *   `raw/` : Images sources originales.
+    *   `output/` : Résultats du traitement.
+*   **`assets/`** : Ressources pour la documentation.
+
+---
+
 ## 💻 Les outils derrière le moteur
 *   **Python** : Le chef d'orchestre.
 *   **NumPy** : Pour manipuler les images comme des grands tableaux de chiffres.
