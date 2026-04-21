@@ -7,7 +7,7 @@ Le problème ? En quelques secondes, le sujet a bougé, ou l'appareil a légère
 
 ---
 
-## 🛠️ Le Processus Technique
+##  Le Processus Technique
 
 ### 1. Décomposition des canaux
 L'image source est d'abord séparée en ses trois composantes fondamentales. C'est ici qu'on voit les décalages qui gâchent l'image finale.
@@ -27,7 +27,7 @@ Une fois que le moteur a trouvé le décalage parfait, il fusionne les trois cou
 
 ---
 
-## 📂 Structure du projet
+##  Structure du projet
 
 *   **`src/`** : Cœur de l'application.
     *   `engine.py` : Le moteur principal de recalage.
@@ -40,7 +40,7 @@ Une fois que le moteur a trouvé le décalage parfait, il fusionne les trois cou
 
 ---
 
-## 💻 Les outils derrière le moteur
+##  Les outils derrière le moteur
 *   **Python** : Le chef d'orchestre.
 *   **NumPy** : Pour manipuler les images comme des grands tableaux de chiffres.
 *   **Matplotlib** : Pour la visualisation et le rendu.
